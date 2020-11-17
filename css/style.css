@@ -1,0 +1,56 @@
+body {
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header, footer {
+  background-color: #343434;
+  color: white;
+  border-radius: 20px;
+}
+
+article header {
+  padding-bottom: 20px;
+}
+
+section {
+  background-color: white;
+  border-radius: 20px;
+}
+
+header,
+section,
+footer {
+  margin: 20px;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+nav a:link, a:visited /*:link defines that link that is unvisited. :visited defines a link that has been visited*/ /*creating buttons*/ {
+  background-color: #696969;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: -5px 10px 0px 0px;
+}
+
+nav a:hover, a:active /*:hover defines when the user mouses over it. :active defines when the link is clicked*/ {
+  background-color: #959595;
+}
+
+section a {
+  background-color: blue;
+}
